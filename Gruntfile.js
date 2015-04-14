@@ -5,6 +5,17 @@ module.exports = function(grunt) {
 	// grunt config
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
+		bower_concat: {
+			all: {
+				dest: 'js/vendor.js',
+				mainFiles: {
+					'Sortable': ['Sortable.js', 'jquery.binding.js']
+				},
+				dependencies: {
+					'Sortable': 'jquery'
+				}
+			}
+		},
 		concat: {
 			base: {
 				src: ['js/src/*.js'],
@@ -85,4 +96,6 @@ module.exports = function(grunt) {
 			}
 		}
 	});
+
+	grunt.registerTask('default', ['bower_concat', 'concat', 'uglify']);
 };

@@ -1,0 +1,25 @@
+{
+  "name": "material",
+  "version": "0.0.2",
+  "homepage": "https://github.com/polst/material",
+  "authors": [
+    "devel.pa@gmail.com"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~1.11.2",
+    "modernizr": "~2.8.3",
+    "bootstrap": "~3.3.4",
+    "textarea-autosize": "javierjulio/textarea-autosize#~0.4.0",
+    "waves": "~0.6.6",
+    "pickadate": "~3.5.5",
+    "Sortable": "~1.1.1"
+  }
+}

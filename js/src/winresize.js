@@ -1,3 +1,6 @@
+// window smart resize
+function on_resize(c,t){onresize=function(){clearTimeout(t);t=setTimeout(c,100)};return c};
+
 // window resize
 	on_resize(function() {
 		// fixed left/right hand side column padding bottom and width
