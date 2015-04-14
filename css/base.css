@@ -7667,7 +7667,7 @@ legend[class*="col-xx-"] {
     width: 100%; }
 
 .tile-footer {
-  background-color: #666666;
+  background-color: #1d1d1d;
   position: relative; }
   .tile-footer:after, .tile-footer:before {
     content: "";
