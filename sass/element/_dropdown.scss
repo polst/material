@@ -22,7 +22,7 @@
 
 // menu
 	.dropdown-menu {
-		background-color: $white;
+		background-color: $black-bg;
 		border: 1px solid $black-hint;
 		border-radius: 0 2px 2px 2px;
 		list-style: none;
@@ -67,7 +67,7 @@
 			white-space: nowrap;
 			&:focus,
 			&:hover {
-				background-color: $white-bg;
+				background-color: $white-bg-light;
 				text-decoration: none;
 			}
 		}
@@ -111,7 +111,7 @@
 		position: relative;
 		z-index: 1;
 		.dropdown.open & {
-			background-color: $white;
+			background-color: $black-bg;
 			color: $black-text;
 			@include box-shadow(none);
 		}

@@ -5,10 +5,10 @@
 // colour
 	// basic colour
 		$black: #000000;
-		$black-bg: #e0e0e0;
+		$black-bg: #222;
 		$black-hint: #9e9e9e;
-		$black-sec: #616161;
-		$black-text: #212121;
+		$black-sec: #aaa;
+		$black-text: #ccc;
 
 		$palette-blue: #2196f3;
 		$palette-blue-dark: #0d47a1;
@@ -22,7 +22,7 @@
 		$palette-green-light: #c8e6c9;
 		$palette-green-light-m: #81c784;
 
-		$palette-purple: #9c27b0;
+		$palette-purple: #6E0081;
 		$palette-purple-dark: #4a148c;
 		$palette-purple-dark-m: #7b1fa2;
 		$palette-purple-light: #e1bee7;
@@ -41,9 +41,9 @@
 		$palette-yellow-light-m: #ffd54f;
 
 		$white: #ffffff;
-		$white-bg: #f5f5f5;
-		$white-bg-dark: #eeeeee;
-		$white-bg-light: #fafafa;
+		$white-bg: #666;
+		$white-bg-dark: #444;
+		$white-bg-light: #555;
 
 	// brand colour
 		$brand-color: $palette-green;
