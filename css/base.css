@@ -6142,6 +6142,7 @@ a.fbtn:focus, a.fbtn:hover {
 
 .card {
   background-color: #555;
+  color: inherit;
   border-radius: 2px;
   display: block;
   display: -webkit-box;
